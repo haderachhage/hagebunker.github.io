@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Project Name</title>
+
+<style>
+/* --- Variables --- */
+:root {
+  --accent: #0078FF;
+  --accent-2: #00E5C0;
+  --dark: #4A302F;
+  --text: #111;
+  --muted: rgba(0,0,0,0.6);
+}
+
+/* --- Base Reset --- */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body {
+  background: #fff;
+  color: var(--text);
+  font-family: "EB Garamond", serif;
+  overflow-x: hidden;
+}
+
+/* --- Layout --- */
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* --- Headings --- */
+h1, h2 {
